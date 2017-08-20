@@ -3,6 +3,7 @@
 # installation:
 
 cd ~
+
 git clone https://github.com/pizzadude/untiny-bash
 
 put this line in your ~/.bashrc
