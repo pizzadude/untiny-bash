@@ -11,6 +11,10 @@ put this line in your ~/.bashrc
 
 alias untiny='~/untiny-bash/untiny-bash'
 
+NOTE: this program requires curl
+
+sudo apt-get install curl # if on ubuntu
+
 ________________________________________________________
 
 #usage after installation
