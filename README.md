@@ -1,7 +1,5 @@
 # extract long url from short url using untiny.com in bash
 
-________________________________________________________
-
 # installation:
 
 cd ~
@@ -15,10 +13,7 @@ NOTE: this program requires curl
 
 sudo apt-get install curl # if on ubuntu
 
-________________________________________________________
-
 # usage after installation
 
 untiny http://bit.ly/INSERT_URL_HERE
 
-________________________________________________________
