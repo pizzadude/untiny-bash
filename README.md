@@ -1,8 +1,8 @@
-#extract long url from short url using untiny.com in bash
+# extract long url from short url using untiny.com in bash
 
 ________________________________________________________
 
-#installation:
+# installation:
 
 cd ~
 git clone https://github.com/pizzadude/untiny-bash
@@ -17,7 +17,7 @@ sudo apt-get install curl # if on ubuntu
 
 ________________________________________________________
 
-#usage after installation
+# usage after installation
 
 untiny http://bit.ly/INSERT_URL_HERE
 
