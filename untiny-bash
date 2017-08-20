@@ -1,0 +1,7 @@
+#!/bin/bash
+/usr/bin/curl --silent http://untiny.com/api/1.0/extract/?url=$1 | sed 's/<[^>]*>//g' > /tmp/untiny.lock1
+cat /tmp/untiny.lock1 | sed 's/ //g' > /tmp/untiny.lock2
+echo '' >> /tmp/untiny.lock2
+cat /tmp/untiny.lock2
+/bin/rm /tmp/untiny.lock*
+exit
